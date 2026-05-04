@@ -65,8 +65,8 @@ nav { background: #fff; border-bottom: 1px solid var(--gris-border); padding: 0 
 .productos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
 .producto-card { background: var(--blanco); border-radius: 14px; overflow: hidden; border: 1px solid var(--gris-border); transition: transform 0.2s, box-shadow 0.2s; }
 .producto-card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(26,58,107,0.1); }
-.producto-img { height: 220px; overflow: hidden; position: relative; background: #f0f0ee; display: flex; align-items: center; justify-content: center; }
-.producto-img img { width: 100%; height: 100%; object-fit: contain; padding: 16px; transition: transform 0.3s; }
+.producto-img { height: 240px; overflow: visible; position: relative; background: #f0f0ee; display: flex; align-items: center; justify-content: center; }
+.producto-img img { width: 100%; height: 100%; object-fit: contain; padding: 8px; transition: transform 0.3s; }
 .producto-card:hover .producto-img img { transform: scale(1.05); }
 .producto-tag { position: absolute; top: 14px; left: 14px; background: var(--azul); color: #fff; font-size: 11px; font-weight: 600; padding: 4px 12px; border-radius: 99px; }
 .producto-body { padding: 22px; }
@@ -81,7 +81,7 @@ nav { background: #fff; border-bottom: 1px solid var(--gris-border); padding: 0 
 
 /* PROYECTOS */
 .proyectos-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.proyecto-img { border-radius: 10px; overflow: hidden; height: 240px; background: #f0f0ee; }
+.proyecto-img { border-radius: 10px; overflow: hidden; height: 240px; background: #f0f0ee; width: 100%; }
 .proyecto-img img { width: 100%; height: 100%; object-fit: cover; object-position: center; transition: transform 0.3s; display: block; }
 .proyecto-img:hover img { transform: scale(1.03); }
 
